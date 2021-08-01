@@ -1,0 +1,28 @@
+{
+  "bot" : {
+    "token":"<your_bot_token>",
+    "secret":"<your_client_secret>",
+    "ownerId":"<discord_user_id>",
+    "activity":"2PG.xyz",
+    "id":"<discord_bot_id>"
+  },
+  "api": {
+    "port": "3000",
+    "url": "https://localhost:3000/api",
+    "stripeSecretKey": "<sk_test_...>",
+    "stripeWebhookSecret": "<whsec_...>"
+  },
+  "guild": {
+      "id":"<support_guild_id>",
+      "premiumRoleId":"<premium_role_id>"
+  },
+  "lavalinkNodes": [
+    {
+        "host": "localhost",
+        "port": 2333,
+        "password": "youshallnotpass"
+    }
+  ],
+  "dashboardURL": "https://localhost:4200",
+  "mongoURL": "mongodb://localhost/2PG"
+}
